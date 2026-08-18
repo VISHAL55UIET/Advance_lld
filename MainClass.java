@@ -44,8 +44,6 @@ class Main {
         return publicationYear;
     }
 }
-
-// Physical copy in the library
 class BookItem {
     private final String barcode;
     private final Main book;
@@ -142,7 +140,5 @@ public class MainClass {
         System.out.println("Rack: " + bookItem.getRackNumber());
         System.out.println("Status: " + bookItem.getStatus());
         System.out.println("Due Date: " + bookItem.getDueDate());
-
-        sc.close();
     }
 }
